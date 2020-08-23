@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\vjohar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "4.3.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "projectName": "Nop.Core",
+      "projectPath": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "outputPath": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {}
+    }
+  }
+}

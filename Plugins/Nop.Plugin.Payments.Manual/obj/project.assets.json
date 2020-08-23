@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Nop.Core/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1"
+      },
+      "Nop.Data/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nop.Core": "4.3.0"
+        }
+      },
+      "Nop.Services/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nop.Core": "4.3.0",
+          "Nop.Data": "4.3.0"
+        }
+      },
+      "Nop.Web.Framework/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nop.Core": "4.3.0",
+          "Nop.Data": "4.3.0",
+          "Nop.Services": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nop.Core/4.3.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Core/Nop.Core.csproj",
+      "msbuildProject": "../../Libraries/Nop.Core/Nop.Core.csproj"
+    },
+    "Nop.Data/4.3.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Data/Nop.Data.csproj",
+      "msbuildProject": "../../Libraries/Nop.Data/Nop.Data.csproj"
+    },
+    "Nop.Services/4.3.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Services/Nop.Services.csproj",
+      "msbuildProject": "../../Libraries/Nop.Services/Nop.Services.csproj"
+    },
+    "Nop.Web.Framework/4.3.0": {
+      "type": "project",
+      "path": "../../Presentation/Nop.Web.Framework/Nop.Web.Framework.csproj",
+      "msbuildProject": "../../Presentation/Nop.Web.Framework/Nop.Web.Framework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Nop.Web.Framework >= 4.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vjohar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
+      "projectName": "Nop.Plugin.Payments.Manual",
+      "projectPath": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\Nop.Plugin.Payments.Manual.csproj",
+      "outputPath": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Payments.Manual\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "C:\\Users\\vjohar\\Research\\nopCommerce_4.30_Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {}
+    }
+  }
+}
